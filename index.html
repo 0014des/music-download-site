@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フリー音楽ライブラリ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #444;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    .track {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .download-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .download-link:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>フリー音楽ライブラリ</h1>
+  <p>無料でダウンロードできる音楽素材</p>
+</header>
+
+<main>
+  <section class="track">
+    <h2>楽曲タイトル1</h2>
+    <p>この曲は、動画やゲームなどに自由に使えます。</p>
+    <audio controls>
+      <source src="music/track1.mp3" type="audio/mpeg">
+      お使いのブラウザはオーディオタグをサポートしていません。
+    </audio>
+    <br>
+    <a class="download-link" href="music/track1.mp3" download>ダウンロード</a>
+  </section>
+
+  <section class="track">
+    <h2>楽曲タイトル2</h2>
+    <p>著作権フリー。商用利用も可能です。</p>
+    <audio controls>
+      <source src="music/track2.mp3" type="audio/mpeg">
+      お使いのブラウザはオーディオタグをサポートしていません。
+    </audio>
+    <br>
+    <a class="download-link" href="music/track2.mp3" download>ダウンロード</a>
+  </section>
+
+  <!-- 他の曲を追加するには、同じセクションを複製して変更してください -->
+
+</main>
+
+</body>
+</html>
